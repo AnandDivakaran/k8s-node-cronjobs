@@ -12,3 +12,5 @@ spec:
           - name: mysamplenodeapp2
             image: nodeconsoleapp:v2
           restartPolicy: OnFailure
+  concurrencyPolicy: Forbid
+
